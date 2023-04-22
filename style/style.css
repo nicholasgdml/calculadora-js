@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calcBody {
+    width: 475px;
+    height: 630px;
+    margin: 40px auto 41px;
+    padding: 1px ;
+    background: #D9D9D9;
+    box-shadow: 3px 6px 13px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 25px;
+}
+
+.calcVisor {
+    position: relative;
+    width: 395px;
+    height: 98px;
+    margin: 44px auto;
+
+    background: #062900;
+    box-shadow: inset 4px 10px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.calcKeyboard {
+    margin: 0 auto;
+    display: grid;
+    width: 373px;
+    grid-template-columns: repeat(4, 82px);
+    grid-template-rows: repeat(5, 70px);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.buttons {
+    width: 82px;
+    height: 70px;
+    background: #7B7B7B;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.additionButton {
+    grid-area: 4 / 4 / 6 / 5; 
+    width: 82px;
+    height: 155px;
+}
+
+.orange {
+    background: #FF9900;
+    color: black;
+}
